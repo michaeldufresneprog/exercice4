@@ -1,3 +1,18 @@
-h1{
-    background-color: red;
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:$couleurRose;
+}
+header p{
+    margin:0vh 0vw 2vh 0vw;
+    font-weight: bold;
+}
+header p:first-child{
+    padding-top: 2vh;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
