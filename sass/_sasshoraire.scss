@@ -1,8 +1,20 @@
+/*
+
+Css header
+
+*/
 header{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 header p{
     margin:0vh 0vw 2vh 0vw;
@@ -34,6 +46,11 @@ h3,p {
 .video {
     background-color: rgb(200, 80, 80);
 }
+/*
+
+Css jour
+
+*/
 #jour div.projet {
     background-color: #d87eeb;
 }
@@ -184,13 +201,6 @@ h3,p {
 #jour div.vendredi {
     grid-row: 6 / 11;
     grid-column: 6;
-}
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
 }
 .pause {
     background-color: yellow;

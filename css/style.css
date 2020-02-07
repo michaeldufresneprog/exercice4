@@ -1,3 +1,8 @@
+/*
+
+Css header
+
+*/
 header {
   width: 100%;
   display: -webkit-box;
@@ -10,6 +15,22 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 header p {
@@ -50,6 +71,11 @@ h3, p {
   background-color: #c85050;
 }
 
+/*
+
+Css jour
+
+*/
 #jour div.projet {
   background-color: #d87eeb;
 }
@@ -316,22 +342,6 @@ h3, p {
   grid-row: 6 / 11;
   -ms-grid-column: 6;
   grid-column: 6;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .pause {
